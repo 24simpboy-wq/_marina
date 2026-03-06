@@ -14,7 +14,7 @@ import {
 
 import GlassCard from '@/components/GlassCard';
 import ThemeBackground from '@/components/ThemeBackground';
-import { avatars, themes, type ThemeType } from '@/constants/themes';
+import { avatars, themes, type ThemeType } from '@/context/themes';
 import { useApp } from '@/context/AppContext';
 
 export default function SettingsScreen() {
@@ -475,3 +475,4 @@ const styles = StyleSheet.create({
     fontWeight: '700',
   },
 });
+
